@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+
+.glow-text {
+    transition: all 0.3s ease;
+  }
+  
+  .glow-text:hover {
+    text-shadow: 0 0 15px white; /* Customize the glow color and intensity as needed */
+  }
+
