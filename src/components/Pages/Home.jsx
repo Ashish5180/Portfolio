@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import {ReactTyped} from 'react-typed';
 
-function Home() {
+const InstantVideo = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
+  }, []);
+
   return (
-    <div className="relative h-screen flex flex-col justify-center items-center py-24  " id="home">
+    <div className="relative h-screen flex flex-col justify-center items-center py-24 " id="home">
       <video
-        autoPlay
+        ref={videoRef}
+        className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
+        preload="auto"
         muted
+        playsInline
         loop
-        className="absolute top-0 left-0 w-full h-full object-cover z-[-1] "
       >
-        <source src='https://www.pexels.com/download/video/3129671/' type="video/mp4" />
+        <source src="https://www.pexels.com/download/video/3129671/" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="max-w-[1240px] mx-auto text-center relative z-10">
@@ -34,6 +44,6 @@ function Home() {
       </div>
     </div>
   );
-}
+};
 
-export default Home;
+export default InstantVideo;
