@@ -8,10 +8,10 @@ function Timeline() {
     <VerticalTimeline>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: 'rgb(219, 39, 119)', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid  rgb(219, 39, 119)' }}
-        date="2011 - present"
-        iconStyle={{ background: 'rgb(219, 39, 119)', color: '#fff' }}
+        contentStyle={{ background: 'rgb(18, 47, 153)', color: '#fff' }}
+        contentArrowStyle={{ borderRight: '7px solid  rgb(18, 47, 153)' }}
+        date="2021-22"
+        iconStyle={{ background: 'rgb(18, 47, 153)', color: '#fff' }}
         icon={<FaSchool />} // Using the imported icon
       >
         <h3 className="vertical-timeline-element-title">High School Education</h3>
@@ -21,9 +21,10 @@ function Timeline() {
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
+      contentStyle={{ background: 'rgb(255,255,255)', color: '#404040' }}
         className="vertical-timeline-element--work"
-        date="2010 - 2011"
-        iconStyle={{ background: 'rgb(219, 39, 119)', color: '#fff' }}
+        date="2022-23"
+        iconStyle={{ background: 'rgb(18, 47, 153)', color: '#fff' }}
         icon={<FaSchool />} // Using the imported icon
       >
         <h3 className="vertical-timeline-element-title">Senior Secondary Education</h3>
@@ -34,8 +35,9 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2008 - 2010"
-        iconStyle={{ background: 'rgb(219, 39, 119)', color: '#fff' }}
+        contentStyle={{ background: 'rgb(18, 47, 153)', color: '#fff' }}
+        date="2023-27 Batch"
+        iconStyle={{ background: 'rgb(18, 47, 153)', color: '#fff' }}
         icon={<FaBriefcase />} // Using the imported icon
       >
         <h3 className="vertical-timeline-element-title"> Pursuing Btech(Full Stack Development)</h3>
@@ -46,8 +48,9 @@ function Timeline() {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2006 - 2008"
-        iconStyle={{ background: 'rgb(219, 39, 119)', color: '#fff' }}
+        contentStyle={{ background: 'rgb(255,255,255)', color: '#404040' }}
+        date="2024"
+        iconStyle={{ background: 'rgb(18, 47, 153)', color: '#fff' }}
         icon={<FaStar />} // Using the imported icon
       >
         <h3 className="vertical-timeline-element-title">Intershala Cloud Certification</h3>

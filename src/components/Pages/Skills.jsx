@@ -1,12 +1,15 @@
 import React from 'react';
+import Header from '../Layout/Header';
 
 
 const Skills = () => {
   return (
+    <>
+    <Header/>
     <div name='skills' className='w-full h-full  bg-[#040404] text-gray-300' id='services'>
       <div className='max-w-[1000px] mx-auto p-4'>
         <div>
-          <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills</p>
+          <p className='text-4xl font-bold inline border-b-4 border-[#122f99]'>Skills</p>
           <p className='py-4 text-lg'>// "These are the technologies I'm currently working with in my projects."</p>
         </div>
 
@@ -86,6 +89,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

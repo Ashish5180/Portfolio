@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import PopupComponent from './ShowModal';
-
+import Header from '../Layout/Header';
 const Projects = () => { 
   const [showPopup, setShowPopup] = useState(false);
 
@@ -13,7 +13,10 @@ const Projects = () => {
     setShowPopup(false);
   };
 
-  return (<div className='w-full h-screen py-16 text-white px-4 bg-[#040404]' id='projects'>
+  return (
+    <>
+    <Header/>
+  <div className='w-full h-screen py-16 text-white px-4 bg-[#040404]' id='projects'>
   <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
     <div className='lg:col-span-2 my-4'>
       <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>
@@ -36,6 +39,7 @@ const Projects = () => {
 
     </div>
   </div>
-</div>)};
+</div>
+</>)};
 
 export default Projects;
