@@ -22,15 +22,15 @@ function AboutUs() {
                 Hi. I'm Ashish Yadav, nice to meet you. Please take a look around.
               </p>
             </div>
-            <div>
-              <p className="text-lg sm:pl-8 relative before:absolute before:sm:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-[#122f99]">
+            <div className="relative sm:pl-8">
+              <p className="text-lg sm:text-xl pl-4 sm:pl-8 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-1 before:bg-[#122f99]">
                 As an aspiring web developer mastering the MERN stack, I am passionate about building dynamic, responsive web applications. My commitment to continuous learning and clean, efficient code drives my journey in technology. I thrive in collaborative environments that foster innovation and am eager to contribute to impactful projects that push the boundaries of web development.
               </p>
             </div>
           </div>
         </div>
 
-        <button className="border-2 hover:bg-[#122f99] hover:border-[#122f99] rounded-3xl text-lg font-semibold text-white p-3 m-2">
+        <button className="border-2 hover:bg-[#122f99] hover:border-[#122f99] rounded-3xl text-lg font-semibold text-white p-3 m-2 transition duration-300">
           Download My Resume
         </button>
 
