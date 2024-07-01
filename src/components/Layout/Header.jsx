@@ -52,13 +52,13 @@ function Header() {
               </Link>
             </li>
             <li className="hover:text-white font-bold glow-text cursor-pointer">
-              <Link to="/contact" onClick={handleCloseMenu}>
-                Contact Me
+              <Link to="/projects" onClick={handleCloseMenu}>
+                Projects
               </Link>
             </li>
             <li className="hover:text-white font-bold glow-text cursor-pointer">
-              <Link to="/projects" onClick={handleCloseMenu}>
-                Projects
+              <Link to="/contact" onClick={handleCloseMenu}>
+                Contact Me
               </Link>
             </li>
           </ul>
@@ -81,13 +81,13 @@ function Header() {
               </Link>
             </li>
             <li className="hover:text-white font-bold glow-text hover:scale-110">
-              <Link to="/contact" onClick={handleCloseMenu}>
-                Contact Me
+              <Link to="/projects" onClick={handleCloseMenu}>
+                Projects
               </Link>
             </li>
             <li className="hover:text-white font-bold glow-text hover:scale-110">
-              <Link to="/projects" onClick={handleCloseMenu}>
-                Projects
+              <Link to="/contact" onClick={handleCloseMenu}>
+                Contact Me
               </Link>
             </li>
           </ul>
