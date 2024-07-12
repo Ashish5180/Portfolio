@@ -23,7 +23,7 @@ function ImageTimeline() {
       >
         <h3 className="vertical-timeline-element-title">Advance Project</h3>
         <h4 className="vertical-timeline-element-subtitle">Fitness-website</h4>
-        <p>echnologies used: React js, Redux Toolkit, Tailwind CSS, Component land, Firebase Authentication, Fitness API
+        <p>Technologies used: React js, Redux Toolkit, Tailwind CSS, Component land, Firebase Authentication, Fitness API
         Functionality: User can perform CRUD Operation on the blog section, add items to cart , Protected Routing,User data saves to firebase , API perform operations like:Fetch nutrition data, exercise data</p>
         <img src={img4} alt="Senior Secondary" className="my-4 w-full h-auto rounded-lg" />
             
